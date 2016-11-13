@@ -1,9 +1,9 @@
 // This JavaScript D3 program generates an mPower performance report
 // from mPower Parkinson mobile health data (parkinsonmpower.org.
-// Github repository: http://sage-bionetworks.github.io/mhealthx/
+// Github repository: http://binarybottle.github.io/mhealthx/
 //
 // Authors:
-//  - Arno Klein, 2016  (arno@sagebase.org)  http://binarybottle.com
+//  - Arno Klein, 2016  (arno@childmind.org)  http://binarybottle.com
 //
 // Copyright 2016, Sage Bionetworks (sagebase.org), Apache v2.0 License
 //------------------------------------------------------------------------
