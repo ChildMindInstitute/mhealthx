@@ -1,0 +1,155 @@
+#horizon_plot {
+  position: absolute; 
+  left: -60px; 
+  top: 60px; 
+  width: 1000px; 
+  margin: 0 auto 0px auto;
+  padding: 20px 30px;
+}
+
+.horizon_plot_legends {
+  position: absolute;
+  height: 50px;
+}
+#voice_legend {
+  left: 985px;
+  top: 65px; 
+}
+#walk_legend {
+  left: 1010px;
+  top: 160px; 
+}
+#stand_legend {
+  left: 1000px;
+  top: 255px; 
+}
+#tap_legend {
+  left: 1000px;
+  top: 335px; 
+  height: 65px;
+}
+
+.horizon_prepost {
+  position: absolute;
+  left: 90px; 
+  font-size: 14px;
+}
+#voice_post {
+  top: 27px; 
+  color: #9F5B0D;
+}
+#voice_pre {
+  top: 41px; 
+  color: #EEBE32;
+}
+#walk_post {
+  top: 122px; 
+  color: #2C1EA2;
+}
+#walk_pre {
+  top: 136px; 
+  color: #20AED8;
+}
+#stand_post {
+  top: 217px; 
+  color: #151515;
+}
+#stand_pre {
+  top: 231px; 
+  color: #6E6E6E;
+}
+#tap_post {
+  top: 312px; 
+  color: #C02504;
+}
+#tap_pre {
+  top: 326px; 
+  color: #F78181;
+}
+
+text.activity-title {
+  font-size: 18px;
+}
+text.instructions {
+  font-size: 14px;
+  fill: rgba(0,0,0,.5);
+}
+
+.horizon_axis {
+  position: absolute;
+  top: 408px;
+  left: 86px;
+  font-size: 11px;
+  word-spacing: 16px;
+}
+
+.footer {
+  position: absolute;
+  top: 650px;
+  left: 100px;
+}
+
+g.context g.brush rect.background {
+  fill: rgba(0,0,0,.1);
+}
+g.context g.axis path {
+  stroke-opacity: 0;
+}
+g.context g.axis line {
+  stroke-opacity: .1;
+}
+g.voice_post path.horizon_plot {
+  fill: #9F5B0D;
+}
+g.voice_pre path.horizon_plot {
+  fill: #EEBE32;
+  opacity: 0.75;
+}
+g.stand_post path.horizon_plot {
+  fill: #151515;
+}
+g.stand_pre path.horizon_plot {
+  fill: #6E6E6E;
+  opacity: 0.75;
+}
+g.tap_post path.horizon_plot {
+  fill: #C02504;
+}
+g.tap_pre path.horizon_plot {
+  fill: #F78181;
+  opacity: 0.75;
+}
+g.walk_post path.horizon_plot {
+  fill: #2C1EA2;
+}
+g.walk_pre path.horizon_plot {
+  fill: #20AED8;
+  opacity: 0.75;
+}
+
+#xaxis_label {
+  position: absolute;
+  top: 440px;
+  #text-align: center;
+  left: 470px;
+  font: 14px sans-serif;
+}
+
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #aaa;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #f09f8c;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+g.context rect.background{
+  fill: rgb(200,200,255);
+  visibility: visible !important;
+}​
+
